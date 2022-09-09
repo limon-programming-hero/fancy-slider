@@ -52,6 +52,7 @@ const selectItem = (event, img) => {
 }
 var timer
 const createSlider = () => {
+  document.getElementById('search').value = '';
   // check slider image length
   if (sliders.length < 2) {
     alert('Select at least 2 image.')
